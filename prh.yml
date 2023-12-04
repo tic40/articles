@@ -1,0 +1,27 @@
+version: 1
+rules:
+
+  - expected: Rails
+    patterns:
+      - RAILS
+      - rails
+
+  - expected: Ruby
+    patterns:
+      - RUBY
+      - ruby
+
+  - expected: note
+    patterns:
+      - Note
+      - NOTE
+
+  - expected: Deprecation warning
+    patterns:
+      - DEPRECATION WARNING
+      - deprecation warning
+
+  - expected: アップグレード
+    patterns:
+      - アップデート
+
